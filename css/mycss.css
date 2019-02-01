@@ -1,0 +1,35 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    padding-left: 1% 0;
+    font-size: 1.2em;
+    border: 0;
+}
+
+.navbar-brand {
+    float: left;
+    font-size: 30px;
+}
+
+.dropdown-menu {
+    background-color: #FFFDE7;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #FFF;
+}
+
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #331B92;
+}
+
+/* hover over your mouse, and the dropdown menu will show */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
