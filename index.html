@@ -31,11 +31,13 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">團契小組</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <h6 class="dropdown-header">學生團契</h6>
                         <a class="dropdown-item" href="#">磐石團契</a>
-                        <a class="dropdown-item" href="#">家庭團契</a>
-                        <a class="dropdown-item" href="#">長青團契</a>
+                        <a class="dropdown-item" href="https://www.iccfer.com" target="_blank">伊大華人基督團契</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://www.iccfer.com">伊大華人基督團契</a>
+                        <h6 class="dropdown-header">家庭團契</h6>
+                        <a class="dropdown-item" href="#">青草地團契</a>
+                        <a class="dropdown-item" href="#">長青團契</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -75,7 +77,7 @@
                 <img class="img-fluid" src="img/cccc-inner-choir-2.jpeg" alt="Third slide">
             </div>
             <div class="carousel-caption">
-                <button type="button" class="btn btn-lg">加入我們與神的聚會</button>
+                <button type="button" class="btn btn-lg" id="btn-carousel">加入我們與神的聚會</button>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselIndexPage" role="button" data-slide="prev">
@@ -88,10 +90,68 @@
         </a>
     </div>
 
+    <!-- <div class="container-fluid purple-box text-center">
+        <h2>What We're Using</h2>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/uiuc-grainger.jpg" id="icon">
+                <h4>HTML5</h4>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/uiuc-grainger.jpg" id="icon">
+                <h4>Bootstrap</h4>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/uiuc-grainger.jpg" id="icon">
+                <h4>CSS3</h4>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4" id="midSection">
+                <div class="card">
+                    <img class="card-img-top" src="img/jesus-stained-glass.jpg" alt="Card image cap" id="img-card" style="width:100%">
+                    <div class="card-body" id="mid-card-content">
+                        <h5 class="card-title">我們的信仰</h5>
+                        <p class="card-text">我們相信聖父、聖子、聖靈為三位一體獨一真神。我們相信聖子耶穌是我們的救世主，祂的死後復活讓我們可以藉著相信祂帶來的福音而得永生。</p>
+                        <a href="#" class="btn btn-primary" id="btn-card">了解信仰告白</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4" id="midSection">
+                <div class="card">
+                    <img class="card-img-top" src="img/cccc-sunday-meeting.jpeg" alt="Card image cap" id="img-card" style="width:100%">
+                    <div class="card-body" id="mid-card-content">
+                        <h5 class="card-title">與神的聚會</h5>
+                        <p class="card-text">有神參與的聚會不但可以凝聚弟兄姊妹，還可以增強我們對真理之了解。但更重要的是，時常的聚會是一件神所喜樂的事<a id="hebrew-cite" data-toggle="collapse" href="#collapse1">（希伯來書10:25）</a>。</p>
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <div class="panel-body">你們不可停止聚會，好像那些停止慣了的人，倒要彼此勸勉，既知道那日子臨近，就更當如此。</div>
+                        </div>
+                        <a href="#" class="btn btn-primary" id="btn-card">更多聚會信息</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4" id="midSection">
+                <div class="card">
+                    <img class="card-img-top" src="img/preaching-bible.jpg" alt="Card image cap" id="img-card" style="width:100%">
+                    <div class="card-body" id="mid-card-content">
+                        <h5 class="card-title">傳道的信息</h5>
+                        <p class="card-text">每個主日都是基督徒們聚在一起敬拜神，仰望神的時候。你可以在這裡找到主日來教會講道的牧師抑或傳道人的信息，通過聲音聽到神的道。</p>
+                        <a href="#" class="btn btn-primary" id="btn-card">獲取講道資料</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
     <!--- Optional JavaScript -->
     <!--- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="js/resize-windows.js"></script>
 </body>
 </html>

@@ -4,6 +4,7 @@
     padding-left: 1% 0;
     font-size: 1.2em;
     border: 0;
+    opacity: 0.9;
 }
 
 .navbar-brand {
@@ -11,14 +12,18 @@
     font-size: 30px;
 }
 
+.container-fluid {
+    margin: 4% auto;
+}
+
 .dropdown-menu {
     background-color: #FFFDE7;
 }
 
-.carousel,.item,.active{
-   height:100%;
- }
-.carousel-inner{
+.carousel,.item,.active {
+    height:100%;
+}
+.carousel-inner {
     height:100%;
 }
 .carousel-indicators li {
@@ -43,6 +48,42 @@
     height: auto;
 }
 
+.purple-box {
+    background-color: #331B92;
+    width: 100%;
+}
+
+.panel-body {
+    background-color: #FFFDE7;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #331B92;
+}
+
+.card-title {
+    font-size: 30px;
+    color: #331B92;
+}
+
+#btn-card {
+    background-color: #FFF;
+    color: #331B92;
+    border: 2px solid #331B92;
+}
+
+#hebrew-cite {
+    color: #331B92;
+}
+
+/* #icon {
+    max-width: 200px;
+    margin: 1% auto;
+} */
+
+#midSection {
+    margin: 4% auto;
+}
+
 /* .carousel-caption h1 {
     margin-top: 0%;
     font-family: '蘋果儷中黑', Helvetica, Arial, sans-serif;
@@ -51,7 +92,7 @@
     font-size: 80px;
 } */
 
-.btn {
+#btn-carousel {
     margin-top: 5%;
     font-family: '蘋果儷中黑', Helvetica, Arial, sans-serif;
     font-size: 30px;
@@ -62,7 +103,7 @@
     border: 3px solid #FFF;
 }
 
-.btn:hover {
+#btn-carousel:hover, #btn-card:hover {
     color: #FFF;
     background-color: #331B92;
     border-color: #331B92;
@@ -77,7 +118,7 @@
     /* .carousel-caption h1 {
         font-size: 70px;
     } */
-    .btn {
+    #btn-carousel {
         margin-top: 4%;
         font-size: 25px;
         padding: 12px 22px;
@@ -88,7 +129,7 @@
     /* .carousel-caption h1 {
         font-size: 60px;
     } */
-    .btn {
+    #btn-carousel {
         margin-top: 3%;
         font-size: 25px;
         padding: 10px 20px;
@@ -99,7 +140,7 @@
     /* .carousel-caption h1 {
         font-size: 55px;
     } */
-    .btn {
+    #btn-carousel {
         margin-top: 2%;
         font-size: 25px;
         padding: 10px 20px;
@@ -110,7 +151,7 @@
     /* .carousel-caption h1 {
         font-size: 50px;
     } */
-    .btn {
+    #btn-carousel {
         margin-top: 5%;
         font-size: 25px;
         padding: 10px 20px;
@@ -129,7 +170,7 @@
     /* .carousel-caption h1 {
         font-size: 50px;
     } */
-    .btn {
+    #btn-carousel {
         margin-top: 3%;
         font-size: 25px;
         padding: 10px 20px;
@@ -146,7 +187,13 @@
     .carousel-caption {
         display: none;
     }
-    .btn {
+    .card-title {
+        font-size: 20px;
+    }
+    #btn-card {
+        font-size: 13px;
+    }
+    #btn-carousel {
         margin-top: 35%;
         font-size: 12px;
         padding: 8px 17px;
@@ -170,7 +217,7 @@
         font-size: 20px;
     }
 
-    .btn {
+    #btn-carousel {
         margin-top: 35%;
         font-size: 12px;
         padding: 8px 17px;
@@ -181,5 +228,105 @@
     }
     .carousel-indicators .active {
         display: none;
+    }
+}
+
+@media (max-width: 574px) {
+    .card-body {
+        background-color: #331B92;
+        opacity: .9;
+    }
+    .card-title {
+        font-size: 50px;
+        color: #FFBB33;
+        opacity: 1;
+    }
+    .card-text {
+        font-size: 25px;
+        color: white;
+        opacity: 1;
+    }
+    #hebrew-cite {
+        color: #FFF;
+    }
+    .panel-body {
+        font-size: 18px;
+        padding: 5px 5px;
+    }
+    #btn-card {
+        font-size: 25px;
+        position: absolute;
+        bottom: 5%;
+    }
+    #btn-card:hover {
+        color: #331B92;
+        background-color: #FFF;
+        border-color: #FFF;
+    }
+}
+
+@media (max-width: 450px) {
+    .card-title {
+        font-size: 35px;
+    }
+    .card-text {
+        font-size: 20px;
+    }
+    .panel-body {
+        font-size: 15px;
+    }
+    #btn-card {
+        font-size: 20px;
+        position: absolute;
+        bottom: 8%;
+    }
+    #btn-card:hover {
+        color: #331B92;
+        background-color: #FFF;
+        border-color: #FFF;
+    }
+}
+
+@media (max-width: 400px) {
+    .card-title {
+        font-size: 35px;
+    }
+    .card-text {
+        font-size: 18px;
+    }
+    .panel-body {
+        font-size: 12px;
+    }
+    #btn-card {
+        font-size: 18px;
+        position: absolute;
+        bottom: 8%;
+    }
+    #btn-card:hover {
+        color: #331B92;
+        background-color: #FFF;
+        border-color: #FFF;
+    }
+}
+
+@media (max-width: 350px) {
+    .card-title {
+        font-size: 30px;
+    }
+    .card-text {
+        font-size: 15px;
+    }
+    .panel-body {
+        font-size: 10px;
+    }
+    #btn-card {
+        font-size: 15px;
+        position: absolute;
+        bottom: 8%;
+    }
+    #btn-card:hover {
+        color: #331B92;
+        background-color: #FFF;
+        border-color: #FFF;
     }
 }
