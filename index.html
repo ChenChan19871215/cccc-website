@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mycss.css">
     <title>香檳華人基督教會 | Champaign Chinese Christian Church</title>
+    <link rel="icon" href="img/cross-touch-icon.png">
+    <link rel="apple-touch-icon" href="img/cross-touch-icon.png">
+    <!--- Optional JavaScript -->
+    <!--- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
+    <script src="js/resize-windows.js"></script>
+    <script src="js/detect-safari.js"></script>
 </head>
 <body>
     <a href="#" class="d-block px-3 py-2 text-center text-bold text-light old-bv bg-info">我們迎來新網頁了！</a>
@@ -113,7 +123,7 @@
             <div class="col-sm-4" id="midSection">
                 <div class="card">
                     <img class="card-img-top" src="img/jesus-stained-glass.jpg" alt="Card image cap" id="img-card" style="width:100%">
-                    <div class="card-body" id="mid-card-content">
+                    <div class="card-body" id="mid-card-content-1">
                         <h5 class="card-title">我們的信仰</h5>
                         <p class="card-text">我們相信聖父、聖子、聖靈為三位一體獨一真神。我們相信聖子耶穌是我們的救世主，祂的死後復活讓我們可以藉著相信祂帶來的福音而得永生。</p>
                         <a href="#" class="btn btn-primary" id="btn-card">了解信仰告白</a>
@@ -123,7 +133,7 @@
             <div class="col-sm-4" id="midSection">
                 <div class="card">
                     <img class="card-img-top" src="img/cccc-sunday-meeting.jpeg" alt="Card image cap" id="img-card" style="width:100%">
-                    <div class="card-body" id="mid-card-content">
+                    <div class="card-body" id="mid-card-content-2">
                         <h5 class="card-title">與神的聚會</h5>
                         <p class="card-text">有神參與的聚會不但可以凝聚弟兄姊妹，還可以增強我們對真理之了解。但更重要的是，時常的聚會是一件神所喜樂的事<a id="hebrew-cite" data-toggle="collapse" href="#collapse1">（希伯來書10:25）</a>。</p>
                         <div id="collapse1" class="panel-collapse collapse">
@@ -136,7 +146,7 @@
             <div class="col-sm-4" id="midSection">
                 <div class="card">
                     <img class="card-img-top" src="img/preaching-bible.jpg" alt="Card image cap" id="img-card" style="width:100%">
-                    <div class="card-body" id="mid-card-content">
+                    <div class="card-body" id="mid-card-content-3">
                         <h5 class="card-title">傳道的信息</h5>
                         <p class="card-text">每個主日都是基督徒們聚在一起敬拜神，仰望神的時候。你可以在這裡找到主日來教會講道的牧師抑或傳道人的信息，通過聲音聽到神的道。</p>
                         <a href="#" class="btn btn-primary" id="btn-card">獲取講道資料</a>
@@ -144,14 +154,89 @@
                 </div>
             </div>
         </div>
-
     </div>
 
-    <!--- Optional JavaScript -->
-    <!--- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-    <script src="js/resize-windows.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" id="midSection">
+                <div class="card">
+                    <img class="card-img-top" id="apple-music-replacement" src="img/bible-and-piano.jpeg" alt="Card image cap" id="img-card" style="width:100%">
+                    <iframe id="apple-music-player" allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/bible-study/pl.d838ab1729e94005ab6d16d090580d26?app=music"></iframe>
+                    <div class="card-body" id="mid-card-content">
+                        <h5 class="card-title">在音樂中尋求神</h5>
+                        <p class="card-text">基督徒音樂家們創作了許許多多讚美神的音樂，拿這些屬靈歌曲在靈修時做背景音樂是個不錯的選擇喔。</p>
+                        <a href="https://itunes.apple.com/us/playlist/bible-study/pl.d838ab1729e94005ab6d16d090580d26?mt=1&app=music&ls=1" style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/en-us/lockup.svg?kind=playlist&bubble=apple_music&style=standard-black) no-repeat;width:140px;height:30px;" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="midSection">
+                <div class="card">
+                    <iframe src="https://www.bible.com/bible/46/GEN.1.CUNP-%E7%A5%9E" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"></iframe>
+                    <div class="card-body" id="mid-card-content">
+                        <h5 class="card-title">在聖經中尋求神</h5>
+                        <p class="card-text">聖經蘊含著我們基督徒屬靈的奶，養成每天閱讀聖經的習慣定會給你很大的幫助。</p>
+                        在<a href="https://www.bible.com/bible/46/GEN.1.CUNP-%E7%A5%9E"  target="_blank"><img src="img/youversion-logo-light.png" height="30"></a>中尋找更多經文
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue-grey lighten-5">
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3 dark-grey-text">
+                <!-- Grid column -->
+                <!-- <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                    <h6 class="text-uppercase font-weight-bold">香檳華人基督教會</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p></p>
+                </div> -->
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold" id="footer-title">Products</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p><a class="dark-grey-text" href="#!">MDBootstrap</a></p>
+                    <p><a class="dark-grey-text" href="#!">MDWordPress</a></p>
+                    <p><a class="dark-grey-text" href="#!">BrandFlow</a></p>
+                    <p><a class="dark-grey-text" href="#!">Bootstrap Angular</a></p>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold" id="footer-title">Useful links</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p><a class="dark-grey-text" href="#!">Your Account</a></p>
+                    <p><a class="dark-grey-text" href="#!">Become an Affiliate</a></p>
+                    <p><a class="dark-grey-text" href="#!">Shipping Rates</a></p>
+                    <p><a class="dark-grey-text" href="#!">Help</a></p>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold" id="footer-title">聯絡我們</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p><i class="fas fa-home mr-3"></i> 1100 Broadmoor Dr, Champaign, IL 61820</p>
+                    <p><i class="fas fa-envelope mr-3"></i> champaignccc@gmail.com</p>
+                    <p><i class="fas fa-phone mr-3"></i> + 1 (716) 222-2091</p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+        <!-- Footer Links -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 text-white">Copyright © 2019
+            <a class="text-warning" href="https://www.champaignccc.org"> Champaign Chinese Christian Church</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 </body>
 </html>
