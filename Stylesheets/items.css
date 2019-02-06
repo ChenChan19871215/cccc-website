@@ -1,3 +1,5 @@
+
+/* define style of the navbar. */
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -6,7 +8,6 @@
     border: 0;
     opacity: 0.9;
 }
-
 .navbar-brand {
     float: left;
     font-size: 30px;
@@ -88,14 +89,6 @@
 #midSection {
     margin: 4% auto;
 }
-
-/* .carousel-caption h1 {
-    margin-top: 0%;
-    font-family: '蘋果儷中黑', Helvetica, Arial, sans-serif;
-    text-shadow: 4px 4px #331B92;
-    color: #FFF;
-    font-size: 80px;
-} */
 
 #btn-carousel {
     margin-top: 5%;
@@ -287,13 +280,7 @@
     }
     #btn-card {
         font-size: 20px;
-        position: absolute;
         bottom: 8%;
-    }
-    #btn-card:hover {
-        color: #331B92;
-        background-color: #FFF;
-        border-color: #FFF;
     }
 }
 
@@ -309,13 +296,6 @@
     }
     #btn-card {
         font-size: 18px;
-        position: absolute;
-        bottom: 8%;
-    }
-    #btn-card:hover {
-        color: #331B92;
-        background-color: #FFF;
-        border-color: #FFF;
     }
 }
 
@@ -331,12 +311,5 @@
     }
     #btn-card {
         font-size: 15px;
-        position: absolute;
-        bottom: 8%;
-    }
-    #btn-card:hover {
-        color: #331B92;
-        background-color: #FFF;
-        border-color: #FFF;
     }
 }
