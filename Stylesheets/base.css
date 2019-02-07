@@ -1,4 +1,36 @@
+
 /* this define all the containers in the website. */
-.container {
-    padding: 3%;
+.container .container-fluid {
+    padding: 50%;
+}
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    opacity: 0.9;
+    padding-left: 1% 0;
+}
+.navbar-brand {
+    float: left;
+    font-size: 30px;
+}
+
+.dropdown-menu {
+    background-color: var(--light-yellow);
+    width: 100% auto;
+}
+/* hover over your mouse, and the dropdown menu will show */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.page-footer {
+    background-color: #FFF;
+    padding-top: .5px;
+}
+.footer-copyright {
+    background-color: var(--dark-purple);
+    width: 100% auto;
 }

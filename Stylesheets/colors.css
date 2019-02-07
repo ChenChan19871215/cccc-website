@@ -1,0 +1,27 @@
+:root {
+    --theme-purple: #5014B8;
+    --dark-purple: #190934;
+    --light-purple: #E6DAFB;
+    --theme-yellow: #FDDC22;
+    --light-yellow: #F7F2D4;
+}
+
+.bg-light-yellow {
+    background-color: var(--light-yellow);
+    width: 100% auto;
+}
+
+.bg-theme-yellow {
+    background-color: var(--theme-yellow);
+    width: 100% auto;
+}
+
+.bg-theme-purple {
+    background-color: var(--theme-purple);
+    width: 100%;
+}
+
+.bg-light-purple {
+    background-color: var(--light-purple);
+    width: 100%;
+}

@@ -1,26 +1,5 @@
 
-/* define style of the navbar. */
-.navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-    padding-left: 1% 0;
-    font-size: 1.2em;
-    border: 0;
-    opacity: 0.9;
-}
-.navbar-brand {
-    float: left;
-    font-size: 30px;
-}
-
-.container-fluid {
-    margin: 4% auto;
-}
-
-.dropdown-menu {
-    background-color: #FFFDE7;
-}
-
+/* ----- Carousel definition ---- */
 .carousel,.item,.active {
     height:100%;
 }
@@ -28,16 +7,16 @@
     height:100%;
 }
 .carousel-indicators li {
-    width: 15px;
-    height: 15px;
     border-radius: 100%;
     background-color: #FFF;
+    height: 15px;
+    width: 15px;
 }
 .carousel-indicators .active {
     width: 15px;
     height: 15px;
     border-radius: 100%;
-    background-color: #331B92;
+    background-color: var(--theme-purple);
 }
 .carousel-caption {
     top: 60%;
@@ -49,42 +28,30 @@
     height: auto;
 }
 
-.purple-box {
-    background-color: #331B92;
-    width: 100%;
-}
+
 
 .panel-body {
     background-color: #FFFDE7;
+    border: 1px solid var(--theme-purple);
     margin-bottom: 20px;
     padding: 20px;
-    border: 1px solid #331B92;
 }
 
 .card-title {
+    padding-top: 3% auto;
     font-size: 30px;
     color: #331B92;
-}
-
-.page-footer {
-    background-color: #331B92;
-    padding-top: .5px;
 }
 
 #btn-card {
     background-color: #FFF;
     color: #331B92;
-    border: 2px solid #331B92;
+    border: 2px solid var(--theme-purple);
 }
 
 #hebrew-cite {
-    color: #331B92;
+    color: var(--theme-purple);
 }
-
-/* #icon {
-    max-width: 200px;
-    margin: 1% auto;
-} */
 
 #midSection {
     margin: 4% auto;
@@ -96,24 +63,19 @@
     font-size: 30px;
     color: #FFF;
     padding: 12px 22px;
-    text-shadow: 4px 4px #331B92;
+    text-shadow: 4px 4px var(--dark-purple);
     background-color: transparent;
     border: 3px solid #FFF;
 }
 
 #btn-carousel:hover, #btn-card:hover {
     color: #FFF;
-    background-color: #331B92;
-    border-color: #331B92;
-}
-
-/* hover over your mouse, and the dropdown menu will show */
-.dropdown:hover>.dropdown-menu {
-    display: block;
+    background-color: var(--theme-purple);
+    border-color: var(--theme-purple);
 }
 
 #footer-title {
-    font-size: 20px;
+    font-size: 40px;
     color: #FFBB33;
 }
 
@@ -236,7 +198,7 @@
 
 @media (max-width: 575px) {
     .card-body {
-        background-color: #331B92;
+        background-color: var(--theme-purple);
         opacity: .9;
     }
     .card-title {
@@ -262,7 +224,7 @@
         bottom: 5%;
     }
     #btn-card:hover {
-        color: #331B92;
+        color: var(--theme-purple);
         background-color: #FFF;
         border-color: #FFF;
     }
