@@ -53,8 +53,16 @@
     color: var(--theme-purple);
 }
 
-#midSection {
+.upper-card {
     margin: 4% auto;
+}
+
+.lower-card-up {
+    margin: 4% 0 0 auto;
+}
+
+.lower-card-low {
+    margin: 4% 0 4% auto;
 }
 
 #btn-carousel {
